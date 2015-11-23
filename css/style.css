@@ -203,3 +203,8 @@ form.custom .custom.dropdown .selector {
     font-weight: bold;
     margin-top: 5%;
 }
+#btndestinations {
+    background-color: white;
+    color: #565A5C;
+    margin-left: 28%;
+}
