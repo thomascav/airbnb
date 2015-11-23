@@ -1,17 +1,22 @@
 /*=====================================================================================
                         général
 ======================================================================================*/
+
 body {
     font-size: 62.5%;
-    font-family: Circular,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
 }
+
 /*=====================================================================================
                         header
 ======================================================================================*/
-header {
-    background-image: url(../img/panoterrasse.jpg);
-    background-size: 100%;
 
+header {
+    background-image: url(../img/panoterrasse2-2.jpg);
+    background-color: black;
+    background-size: 100%;
+    margin-right: 0;
+    opacity: 0.9;
 }
 #logoheaderbg {
     height: 36px;
@@ -27,7 +32,8 @@ header h5 {
     color: white;
     font-weight: bold;
     text-align: center;
-    padding-top: 0.5em;
+    padding-bottom: 5%;
+
 }
 header footer {
     background-color: rgba(0, 0, 0, 0.5);
@@ -38,14 +44,18 @@ input {
     font-size: 1.6em;
     color: grey;
 }
-                            /*________________________________________________
+#boutonsearch {
+    margin-right: 16%;
+}
+/*________________________________________________
                                             bouton mode d'emploi*/
+
 #modeemploi {
-    background-color:rgba(255, 255, 255, 0.5);
+    background-color: rgba(255, 255, 255, 0.3);
     color: white;
     text-align: center;
     border-radius: 3px;
-    margin-left: 43%;
+    margin-left: 45%;
     margin-top: 10%;
     padding: 1em;
     font-weight: bold;
@@ -54,142 +64,111 @@ input {
 #modeemploi:hover {
     background-color: rgba(0, 0, 0, 0.5);
 }
+
 /*________________________________________________
                 fin bouton mode d'emploi*/
+
+
 /*----------------------------------------------------------------------------------------
                         nav*/
-                        /* Styles for search dropdown */
-
-                        .search {
-
-                          position: relative;
-
-                          padding-top: 41px;
-
-                          margin-bottom: 0;
-
-                        }
-
-                        .search input {
-
-                          padding-left: 240px;
-
-                        }
-
-                        .search .keyword {
-
-                          position: absolute;
-
-                          width: 100px;
-
-                          margin-left: 10px;
-
-                          margin-top: 17px;
-
-                        }
-
-                        .search i {
-
-                          position: absolute;
-
-                          margin-left: 207px;
-
-                          font-size: 30px;
-
-                          line-height: 50px;
-
-                          color: #ccc;
-
-                        }
-
-                        .search .search-field {
-
-                          height: 50px;
-
-                        }
-
-                        .search .arrow-down {
-
-                          width: 0;
-
-                          height: 0;
-
-                          border-left: 5px solid transparent;
-
-                          border-right: 5px solid transparent;
-
-                          border-top: 6px solid #2ba6cb;
-
-                          margin-left: 71px;
-
-                          margin-top: -10px;
-
-                        }
-
-
-
-                        #drop3.content.open {
-
-                          position: absolute !important;
-
-                          top: 30px !important;
-
-                          left: -10px !important;
-
-                          width: 120% !important;
-
-                        }
-                        .search{
-
-                            margin-top: 50px;
-
-                          }
-
-                           h2{
-
-                              text-align: center;
-
-                            }
-
-                            form.custom .custom.dropdown{
-
-                              height: 45px;
-
-                            }
-
-                            label{
-
-                              margin-bottom: 10px;
-
-                            }
-
-                            form.custom .custom.dropdown{
-
-                              padding-top: 5px;
-
-                            }
-
-                            form.custom .custom.dropdown .selector{
-
-                              top: 5px;
-
-                            }
-
-                            .button{
-
-                              height: 45px;
-
-                              margin-top:25px;
-
-                            }
-
-
 nav {
     float: right;
-    margin: 1.4em;
-}
-.menu simple {
+    font-size: 1.4em;
     color: white;
     text-decoration: none;
+    padding-left: 1em;
+    padding-right: 3em;
+    font-weight: bold;
+}
+#Dh {
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 8%;
+    border: 2px solid white;
+    width: 151px;
+}
+#navmenu li{
+    margin: 5%;
+    padding: 5%
+}
+#navmenu {
+    margin-top: 5%;
+}
+
+/* Styles for search dropdown */
+
+.search {
+    position: relative;
+    padding-top: 17px;
+}
+.search input {
+    padding-left: 240px;
+}
+.search .keyword {
+    position: absolute;
+    width: 100px;
+    margin-left: 10px;
+    margin-top: 17px;
+}
+.search i {
+    position: absolute;
+    margin-left: 207px;
+    font-size: 30px;
+    line-height: 50px;
+    color: #ccc;
+}
+.search .search-field {
+    height: 50px;
+}
+.search .arrow-down {
+    width: 0;
+    height: 0;
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 6px solid #2ba6cb;
+    margin-left: 71px;
+    margin-top: -10px;
+}
+#drop3.content.open {
+    position: absolute !important;
+    top: 30px !important;
+    left: -10px !important;
+    width: 120% !important;
+}
+.search {
+    margin-top: 50px;
+}
+h2 {
+    text-align: center;
+}
+form.custom .custom.dropdown {
+    height: 45px;
+}
+label {
+    margin-bottom: 10px;
+}
+form.custom .custom.dropdown {
+    padding-top: 5px;
+}
+form.custom .custom.dropdown .selector {
+    top: 5px;
+}
+.button {
+    height: 38px;
+    margin-top: 0;
+}
+.row {
+    margin-right: 0;
+}
+/*=====================================================================================
+                        article txt
+======================================================================================*/
+
+#ilotrevenus {
+    float: left;
+
+}
+#btnrevenu {
     font-size: 1.6em;
+    padding: 1em 3em 2em 3em;
 }
