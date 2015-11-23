@@ -199,7 +199,7 @@ form.custom .custom.dropdown .selector {
     position: relative;
     text-align: center;
     font-size: 1.6em;
-    color: white;
+    /*color: white;*/
     font-weight: bold;
-    
+    margin-top: 5%;
 }
