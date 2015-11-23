@@ -89,7 +89,7 @@ nav {
 }
 #navmenu li{
     margin: 5%;
-    padding: 5%
+    padding: 2%
 }
 #navmenu {
     margin-top: 5%;
@@ -156,6 +156,7 @@ form.custom .custom.dropdown .selector {
 .button {
     height: 38px;
     margin-top: 0;
+    background-color: #FF7E82;
 }
 .row {
     margin-right: 0;
@@ -163,12 +164,42 @@ form.custom .custom.dropdown .selector {
 /*=====================================================================================
                         article txt
 ======================================================================================*/
-
+.bggrey {
+    background-color: #F5F5F5;
+    padding-top: 5em;
+}
 #ilotrevenus {
     float: left;
-
+    color: #565A5C;
+}
+#txtrevenu {
+    background-color: white;
+    padding-bottom: 6.8em;
 }
 #btnrevenu {
     font-size: 1.6em;
     padding: 1em 3em 2em 3em;
+    background-color: #2199E8;
+}
+#txtwe {
+    color: #565A5C;
+    text-align: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+/*=====================================================================================
+                        bloc 3 images
+======================================================================================*/
+.imgdest {
+    position: relative;
+    padding-bottom: 2em;
+}
+.txtimgdest {
+    z-index: 2000;
+    position: relative;
+    text-align: center;
+    font-size: 1.6em;
+    color: white;
+    font-weight: bold;
+    
 }
