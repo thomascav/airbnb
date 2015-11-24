@@ -21,6 +21,12 @@ header {
   -o-background-size: cover;
   height: 550px;
 }
+#txtbienvenue {
+    color: white;
+}
+#logorbnb {
+    height: 40px;
+}
 .page-scroll {
   color: white;
 }
