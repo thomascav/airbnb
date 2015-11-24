@@ -1,210 +1,107 @@
-/*=====================================================================================
-                        général
-======================================================================================*/
-
-body {
-    font-size: 62.5%;
-    font-family: Circular, "Helvetica Neue", Helvetica, Arial, sans-serif;
-}
-
-/*=====================================================================================
-                        header
-======================================================================================*/
-
-header {
-    background-image: url(../img/panoterrasse2-2.jpg);
-    background-color: black;
-    background-size: 100%;
-    margin-right: 0;
-    opacity: 0.9;
-}
-#logoheaderbg {
-    height: 36px;
-    margin: 1.4em;
-}
-header h1 {
-    margin-top: 150px;
-    text-align: center;
-    color: white;
-    font-weight: bold;
-}
-header h5 {
-    color: white;
-    font-weight: bold;
-    text-align: center;
-    padding-bottom: 5%;
-
-}
-header footer {
-    background-color: rgba(0, 0, 0, 0.5);
-    height: 7em;
-    margin-top: 9%;
-}
-input {
-    font-size: 1.6em;
+/* ==========================================================================
+   général
+ ========================================================================== */
+h3, p {
     color: grey;
-}
-#boutonsearch {
-    margin-right: 16%;
-}
-/*________________________________________________
-                                            bouton mode d'emploi*/
-
-#modeemploi {
-    background-color: rgba(255, 255, 255, 0.3);
-    color: white;
-    text-align: center;
-    border-radius: 3px;
-    margin-left: 45%;
-    margin-top: 10%;
-    padding: 1em;
-    font-weight: bold;
-    font-size: 1.6em;
-}
-#modeemploi:hover {
-    background-color: rgba(0, 0, 0, 0.5);
-}
-
-/*________________________________________________
-                fin bouton mode d'emploi*/
-
-
-/*----------------------------------------------------------------------------------------
-                        nav*/
-nav {
-    float: right;
-    font-size: 1.4em;
-    color: white;
-    text-decoration: none;
-    padding-left: 1em;
-    padding-right: 3em;
     font-weight: bold;
 }
-#Dh {
-    padding-top: 2%;
-    padding-bottom: 2%;
-    padding-left: 8%;
-    border: 2px solid white;
-    width: 151px;
+
+ /* ==========================================================================
+    header
+  ========================================================================== */
+header {
+  position: relative;
+  width: 100%;
+  min-height: auto;
+  background-image: url(../img/panoterrasse2-2.jpg);
+  background-position: top;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+  height: 550px;
 }
-#navmenu li{
-    margin: 5%;
-    padding: 2%
+.page-scroll {
+  color: white;
 }
-#navmenu {
-    margin-top: 5%;
+.header-content, .search {
+  padding: 80px 0;
+  color: white;
+}
+#mode {
+  margin-top: 50px;
+  background-color: rgba(255, 255, 255, 0.1);;
+  color: white;
+}
+/* ==========================================================================
+   sections
+ ========================================================================== */
+section {
+    background-color: #EDEFED;
 }
 
-/* Styles for search dropdown */
+/* ==========================================================================
+   Partie Accueillir un voyageur
+ ========================================================================== */
 
-.search {
-    position: relative;
-    padding-top: 17px;
+.voyageur {
+  padding-top: 20px;
 }
-.search input {
-    padding-left: 240px;
+#titrehote {
+  padding-bottom: 20px;
+  font-weight: bold;
 }
-.search .keyword {
-    position: absolute;
-    width: 100px;
-    margin-left: 10px;
-    margin-top: 17px;
+#argent {
+  padding-bottom: 20px;
 }
-.search i {
-    position: absolute;
-    margin-left: 207px;
-    font-size: 30px;
-    line-height: 50px;
-    color: #ccc;
+.revenus {
+  padding-top: 20px;
+  text-align: center;
+  background-color: white;
+  padding-bottom: 35%;
+  margin-top: 5%;
 }
-.search .search-field {
-    height: 50px;
+
+/*Partie Voir les destinations*/
+/*positionnement du bouton voir les destinations*/
+#destinations {
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
-.search .arrow-down {
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 6px solid #2ba6cb;
-    margin-left: 71px;
-    margin-top: -10px;
+
+/*footer*/
+/*positionnement footer et image de fond*/
+footer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background-image: url(../img/footer.jpg);
 }
-#drop3.content.open {
-    position: absolute !important;
-    top: 30px !important;
-    left: -10px !important;
-    width: 120% !important;
+
+/*couleur de texte des listes*/
+.list-unstyled {
+  color: white;
 }
-.search {
-    margin-top: 50px;
+
+/*couleur de texte des titres des listes du footer*/
+.titrefooter {
+  color: white;
 }
-h2 {
-    text-align: center;
+#checkin {
+  margin-left: -30px;
 }
-form.custom .custom.dropdown {
-    height: 45px;
+#checkout {
+  margin-left: -60px;
 }
-label {
-    margin-bottom: 10px;
+#guest {
+  margin-left: -130px;
 }
-form.custom .custom.dropdown {
-    padding-top: 5px;
+#rechercher {
+  margin-left: -150px;
 }
-form.custom .custom.dropdown .selector {
-    top: 5px;
-}
-.button {
-    height: 38px;
-    margin-top: 0;
-    background-color: #FF7E82;
-}
-.row {
-    margin-right: 0;
-}
-/*=====================================================================================
-                        article txt
-======================================================================================*/
-.bggrey {
-    background-color: #F5F5F5;
-    padding-top: 5em;
-}
-#ilotrevenus {
-    float: left;
-    color: #565A5C;
-}
-#txtrevenu {
-    background-color: white;
-    padding-bottom: 6.8em;
-}
-#btnrevenu {
-    font-size: 1.6em;
-    padding: 1em 3em 2em 3em;
-    background-color: #2199E8;
-}
-#txtwe {
-    color: #565A5C;
-    text-align: center;
-    padding-top: 50px;
-    padding-bottom: 50px;
-}
-/*=====================================================================================
-                        bloc 3 images
-======================================================================================*/
-.imgdest {
-    position: relative;
-    padding-bottom: 2em;
-}
-.txtimgdest {
-    z-index: 2000;
-    position: relative;
-    text-align: center;
-    font-size: 1.6em;
-    /*color: white;*/
-    font-weight: bold;
-    margin-top: 5%;
-}
-#btndestinations {
-    background-color: white;
-    color: #565A5C;
-    margin-left: 28%;
+
+/*Modification des logos réseaux sociaux*/
+#twitter, #facebook, #google {
+  border-radius: 10px;
+  background-color: white;
+  width: 70px;
 }
